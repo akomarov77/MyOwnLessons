@@ -1,7 +1,6 @@
 My HW
 Hello from remote!!!
 
-
 Hello from Local!!
 
 Hello again
