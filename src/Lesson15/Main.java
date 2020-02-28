@@ -68,9 +68,10 @@ public class Main {
         System.out.println(forStartsWith + "start with A:" + forStartsWith.startsWith("A"));
         System.out.println(forStartsWith + "start with B:" + forStartsWith.startsWith("B"));
 
+        System.out.println("Git Split: ----------------------------------------------------");
         System.out.println("Split: ----------------------------------------------------");
         //Split
-        String forSplit = "Hello-my-friend!";
+        String forSplit = "Hello-my-friend!!!";
         String[] split = forSplit.split("-");
         List<String> list = Arrays.asList(split);
 
