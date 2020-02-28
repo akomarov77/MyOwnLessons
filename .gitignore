@@ -1,2 +1,14 @@
 # Project exclude paths
+./idea
 /out/
+.checkstyle
+.classpath
+.project
+.settings/
+*.iml
+*.iws
+*.ids
+*.bat
+
+target/
+rabel.xml
