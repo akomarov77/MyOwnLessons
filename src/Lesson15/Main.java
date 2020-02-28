@@ -2,6 +2,7 @@ package Lesson15;
 
 import java.util.*;
 
+//Hello from develop2
 public class Main {
     public static void main(String[] args) {
         String string1 = new String("str");
