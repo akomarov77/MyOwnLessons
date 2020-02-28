@@ -8,6 +8,7 @@ public class Main {
         String string2 = new String("str");
 
         System.out.println(string1 == string2);
+        //Comment from Remote
         //commit from Local
         System.out.println(string1.compareTo(string2));
         System.out.println(string1.equals(string2));
