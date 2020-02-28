@@ -2,14 +2,14 @@ package Lesson15;
 
 import java.util.*;
 //hello from develop
+
+//Hello from develop2
 public class Main {
     public static void main(String[] args) {
         String string1 = new String("str");
         String string2 = new String("str");
 
         System.out.println(string1 == string2);
-        //Comment from Remote
-        //commit from Local
         System.out.println(string1.compareTo(string2));
         System.out.println(string1.equals(string2));
         System.out.println("--------------------------------------------------");
@@ -70,10 +70,9 @@ public class Main {
         System.out.println(forStartsWith + "start with A:" + forStartsWith.startsWith("A"));
         System.out.println(forStartsWith + "start with B:" + forStartsWith.startsWith("B"));
 
-        System.out.println("Git Split: ----------------------------------------------------");
         System.out.println("Split: ----------------------------------------------------");
         //Split
-        String forSplit = "Hello-my-friend!!!";
+        String forSplit = "Hello-my-friend!";
         String[] split = forSplit.split("-");
         List<String> list = Arrays.asList(split);
 
